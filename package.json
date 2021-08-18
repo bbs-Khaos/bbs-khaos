@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service mode=development serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.71",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "postcss": "^8.3.6",
+    "postcss-import": "^14.0.2",
     "register-service-worker": "^1.7.1",
+    "tailwindcss": "^2.2.7",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0",

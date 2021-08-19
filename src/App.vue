@@ -7,6 +7,7 @@
 </template>
 
 <style lang="less">
+@import "~element-plus/lib/theme-chalk/index.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

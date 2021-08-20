@@ -18,8 +18,8 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import("../views/Topic/Topic.vue")
       },
       {
-        path: "quiz",
-        name: "Quiz",
+        path: "questionAnswer",
+        name: "QuestionAnswer",
         meta: {
           title: "提问"
         },

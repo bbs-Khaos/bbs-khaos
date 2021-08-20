@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <router-view />
+    111111111111
   </div>
 </template>
 

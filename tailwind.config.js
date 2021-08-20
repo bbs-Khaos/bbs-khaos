@@ -1,32 +1,22 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const colors = require('tailwindcss/colors');
-
 module.exports = {
+    purge: [
+        './src/**/*.html',
+        './src/**/*.js',
+    ],
+    darkMode: false, // or 'media' or 'class'
     theme: {
-        colors: {
-            gray: colors.coolGray,
-            blue: colors.lightBlue,
-            red: colors.rose,
-            pink: colors.fuchsia,
-        },
-        fontFamily: {
-            sans: ['Graphik', 'sans-serif'],
-            serif: ['Merriweather', 'serif'],
-        },
         extend: {
-            spacing: {
-                '128': '32rem',
-                '144': '36rem',
+            padding: {
+                '1/2': '50%'
             },
-            borderRadius: {
-                '4xl': '2rem',
+            height: {
+                'c-v-24': 'calc(100vh - 6rem)',
+                'c-%-4': 'calc(100% - 1rem)',
             }
-        }
+        },
     },
     variants: {
-        extend: {
-            borderColor: ['focus-visible'],
-            opacity: ['disabled'],
-        }
-    }
+        extend: {},
+    },
+    plugins: [],
 }

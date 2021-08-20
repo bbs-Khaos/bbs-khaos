@@ -6,7 +6,7 @@ import moment from "moment/moment";
  * @param {number} time
  * @param {string} pattern
  * */
-export function formatTime(time: number, pattern: string){
+export function formatTime(time: number, pattern: string): string{
     const date = time.toString().length === 10 ? time * 1000 : time;
     return moment(date).format(pattern);
 }
